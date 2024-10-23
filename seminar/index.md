@@ -10,7 +10,7 @@ nav:
 Currently, our lab is conducting a joint seminar with the [CCS Lab](https://ccs.korea.ac.kr/) at Korea University.
 
 
-|Date|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Speaker&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Paper title|
+|Date|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Speaker&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Paper title|
 |:---:|:-----:|:---------|
 |2024/09/20|Seogyeong Cho|Demystifying and Detecting Misuses of Deep Learning APIs|
 |2024/09/13|Youngjae Choi|Previous work (TIVER: Identifying Adaptive Versions of C/C++ Third-Party Open-Source Components Using a Code Clustering Technique)|
