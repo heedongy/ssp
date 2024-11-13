@@ -10,24 +10,10 @@
   // immediately load saved mode before page renders
   document.documentElement.dataset.dark = loadDark();
 
-  const updateImages = () => {
-    const isDarkMode = document.documentElement.dataset.dark === "true";
-
-    const sspLogo = document.getElementById("ssp-logo");
-
-    if (sspLogo) {
-      sspLogo.src = isDarkMode
-        ? "images/newSSPlogo_withstar_dark.png"
-        : "images/newSSPlogo_withstar.png";
-    }
-  };
-
   const onLoad = () => {
     // update toggle button to match loaded mode
     document.querySelector(".dark-toggle").checked =
       document.documentElement.dataset.dark === "true";
-
-    updateImages();
   };
 
   // after page loads
@@ -38,6 +24,5 @@
     const value = event.target.checked;
     document.documentElement.dataset.dark = value;
     saveDark(value);
-    updateImages();
   };
 }
