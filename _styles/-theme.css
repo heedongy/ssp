@@ -21,9 +21,9 @@
 }
 
 :root {
-  --title: "Ubuntu", sans-serif;
-  --heading: "Ubuntu", sans-serif;
-  --body: "Ubuntu", sans-serif;
+  --title: "Anek Devanagari", sans-serif;
+  --heading: "Anek Devanagari", sans-serif;
+  --body: "Anek Devanagari", sans-serif;
   --code: "Roboto Mono", monospace;
   --medium: 1rem;
   --large: 1.2rem;
@@ -32,7 +32,7 @@
   --thin: 200;
   --regular: 400;
   --semi-bold: 500;
-  --bold: 500;
+  --bold: 600;
   --spacing: 2;
   --rounded: 3px;
   --shadow: 0 0 10px 0 var(--overlay);
